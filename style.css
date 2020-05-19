@@ -1,0 +1,116 @@
+*{
+			margin: 0;
+			padding: 0;
+			font-family: "Lato";
+		}
+		.main {
+			min-height: 600px;
+			max-width: 600px;
+			margin: auto;
+		}
+		.main .cabezal {
+			background-image: url('https://i.ibb.co/Vq1bF1H/Recurso-1.jpg');
+			background-size: cover;
+			width: 100%;
+			height: 300px;
+		}
+		.main .cabezal .logo {
+			width: 40%;
+			margin: auto;
+			padding-top: 2%;
+		}
+		.main .cabezal .logo img {
+			max-width: 100%;
+		}
+		#saludo{
+			color: white;
+			padding: 0 6%;
+			display: flex;
+			justify-content: space-around;
+		}
+		#saludo .texto-saludo{
+			min-width: 50%;
+			padding-top: 12%;
+
+		}
+		#saludo .texto-saludo .persona {
+			font-weight: 900;
+		}
+		#saludo .imagen-saludo{
+			max-width: 30%;
+		}
+		#saludo .imagen-saludo img{
+			width: 100%;
+		}
+		.salones-descrip {
+			width: 90%;
+			margin: auto;
+			text-align: center;
+			padding-top: 5%;
+			font-style: italic;
+		}
+		.titulo-caract {
+			width: 90%;
+			margin: auto;
+			text-align: center;
+			padding-top: 5%;
+			color: #127C70;
+		}
+		.titulo-caract h2{
+			font-weight: 900;
+		}
+		.salones-caract {
+			padding: 3% 0;
+			width: 90%;
+			margin: auto;
+			text-align: center;
+			display: flex;
+			justify-content: space-around;
+		}
+		.salones-caract .caract{
+			min-width: 28%;
+			max-width: 28%;
+			background-color: #E2E2E2;
+			padding: 1%;
+			border-radius: 8px;
+		}
+		.salones-caract .caract1 img{
+			max-width: 80%;
+		}
+		.salones-caract .caract2 img{
+			max-width: 80%;
+		}
+		.salones-caract .caract3 img{
+			max-width: 80%;
+		}
+		.salones-caract .caract p {
+			font-size: 12px;
+			font-weight: 600;
+		}
+		.boton-pagina {
+			width: 100%;
+			text-align: center;
+			padding-top: 6%;
+		}
+		.boton-pagina a {
+			padding: 3%;
+			background-color: #127C70;
+			border-radius: 12px;
+			text-decoration: none;
+			color: white;
+			font-weight: 900;
+			font-style: italic;
+			font-size: 20px;
+		}
+		.main footer{
+			width: 100%;
+			/* background-color: #127C70; */
+			padding: 3% 0%;
+			margin-top: 6%;
+			text-align: center;
+			color: black;
+		}
+		footer h4 {
+			font-size: 13px;
+			font-weight: 600;
+		}
